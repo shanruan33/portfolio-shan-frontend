@@ -6,16 +6,17 @@
           <div class="col-md-2">
             <ul class="custom-menu">
               <li class="active">
-                <a href="index.html">Home</a>
+                <!-- <a href="index.html">Home</a> -->
+                <router-link to="/">Home</router-link>
               </li>
               <li>
-                <a href="#about">About Me</a>
+                <a href="/#about">About Me</a>
               </li>
               <li>
-                <a href="#skills">Skills</a>
+                <a href="/#skills">Skills</a>
               </li>
               <li>
-                <a href="#works">Works</a>
+                <a href="/#works">Works</a>
               </li>
               <li>
                 <a href="#contact">Contact Me</a>
