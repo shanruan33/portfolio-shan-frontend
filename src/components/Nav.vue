@@ -16,7 +16,7 @@
                 <a href="/#skills">Skills</a>
               </li>
               <li>
-                <a href="/#works">Works</a>
+                <a href="#works">Works</a>
               </li>
               <li>
                 <a href="#contact">Contact Me</a>
