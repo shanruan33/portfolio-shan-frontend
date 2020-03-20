@@ -48,7 +48,7 @@
 <script>
 
 require('../../node_modules/@danzen/createjs');
-import "../assets/js/zim/bubble";
+//import "../assets/js/zim/bubble";
 
 export default {
   name: 'Footer'
