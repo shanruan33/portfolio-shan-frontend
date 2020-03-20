@@ -19,11 +19,11 @@
             </li>
             <li>
               Framework:
-              <br />jQuery, React, Redux, ThreeJS, Angular, Leaflet, CanvasJS, ZIM, Pure, Bootstrap, Foundation;
+              <br />Vue, Vuex, React, Redux, jQuery, ThreeJS, Leaflet, CanvasJS, ZIMJS, Pure, Bootstrap, Foundation;
             </li>
             <li>
               Tool & technique:
-              <br />Webpack, NPM, NPV, Github, Netlify, Wordpress, Sass,;
+              <br />Webpack, NPM, NPV, Netlify, Wordpress, Sass, Isotope, AOS;
             </li>
           </ul>
         </div>
@@ -41,7 +41,7 @@
             </li>-->
             <li>
               Tool & technique:
-              <br />MongoDB, cPanel, XAMPP, REST API, GitBash, AJAX, Axios, Stripe, Swagger, REST API
+              <br />MongoDB, cPanel, XAMPP, AJAX, Axios, Stripe, Swagger, REST API, Contentful
             </li>
           </ul>
         </div>
@@ -64,19 +64,19 @@
           <h4 class="h6 mb-2">Software</h4>
           <ul class="list-unstyled list-line">
             <li>
-              Graphic:
-              <br />Adobe Illustrator, Adobe Photoshop
+              Programming:
+              <br />VS Code, Github, Terminal, GitBash
             </li>
             <li>
-              Interface:
-              <br />Adobe XD, InVision
+              Graphic &amp; Interface:
+              <br />Adobe Illustrator, Adobe Photoshop, Adobe XD, InVision
             </li>
             <li>
               Video &amp; Animation:
               <br />Adobe After Effects, Adobe Premiere Pro, Adobe Animate
             </li>
             <li>
-              3D &amp; AR:
+              3D Model &amp; AR:
               <br />Spark AR, AutoDesk 3ds Max
             </li>
           </ul>

@@ -156,9 +156,12 @@ export default {
           Featured: function(el) {
             return !!el.featured;
           },
-          React: function(el) {
-            return !!el.react;
+          "React/Vue": function(el) {
+            return !!el.react || !!el.vue;
           },
+          // Vue: function(el) {
+          //   return !!el.vue;
+          // },
           Web_Dev: function(el) {
             return el.category === "Web_Dev";
           },
@@ -182,7 +185,6 @@ export default {
     layout() {
       this.$refs.cpt.layout("masonry");
     },
-
     updateDetail (el) {
         this.$store.dispatch('updateAction', el);
         window.scrollTo(0,0);

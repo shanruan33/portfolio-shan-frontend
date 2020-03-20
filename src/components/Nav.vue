@@ -16,7 +16,7 @@
                 <a href="/#skills">Skills</a>
               </li>
               <li>
-                <a href="#works">Works</a>
+                <a href="#works">Work</a>
               </li>
               <li>
                 <a href="#contact">Contact Me</a>
@@ -26,16 +26,16 @@
           <div class="col-md-3 d-none d-md-block mr-auto">
             <div class="social-nav d-flex">
               <!-- <span class="icofont-twitter text-white mt-2 mr-3"></span> -->
-              <a href="https://github.com/shanruan33" class="mr-3">
+              <a href="https://github.com/shanruan33" target="_blank" class="mr-3">
                 <font-awesome-icon :icon="['fab', 'github']" size="1x" inverse />
               </a>
-              <a href="https://codepen.io/shanruan33" class="mr-3">
+              <a href="https://codepen.io/shanruan33" target="_blank" class="mr-3">
                 <font-awesome-icon :icon="['fab', 'codepen']" size="1x" inverse />
               </a>
-              <a href="https://www.behance.net/shanruan33" class="mr-3">
+              <a href="https://www.behance.net/shanruan33" target="_blank" class="mr-3">
                 <font-awesome-icon :icon="['fab', 'behance-square']" size="2x" inverse />
               </a>
-              <a href="https://www.linkedin.com/in/shanruan" class="mr-3">
+              <a href="https://www.linkedin.com/in/shanruan" target="_blank" class="mr-3">
                 <font-awesome-icon :icon="['fab', 'linkedin']" size="2x" inverse />
               </a>
               <!-- <div>
