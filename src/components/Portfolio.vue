@@ -89,10 +89,16 @@ export default {
         {
           name: "Flow & Wellness Studio",
           description:
-            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores illo, id recusandae molestias illum unde pariatur, enim tempora, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores illo, id recusandae molestias illum unde pariatur, enim tempora",
-          label: "React E-Commerce Dev.",
+            "This is a full-frontend SPA shopping Web App for choosing and purchasing studio classes, created with React. The development includes a landing page with featured products and services, a product page with classes listing and filtering, a product description page, a shopping cart with checkout function (Paypal or cards). Customized API and responsive design are also applied for faster and better user experience.",
+          label: "React E-Commerce",
           img: "flow",
-          tech: ["React", "HTML/CSS", "Adobe XD"],
+          tech: [
+            "React: State & Lifecycle Management, Router DOM, Context (Provider, Consumer), React Icon, Hook (State, Effect), Event Handler, etc.",
+            "HTML/CSS: Structure and Responsive Design",
+            "Contentful: Content Management & Data Retrieve",
+            "Paypal & Stripe: Payment Management"
+          ],
+          url: "https://flowandwellnessstudio.netlify.com/",
           featured: true,
           category: "Web_Dev",
           react: true
@@ -100,49 +106,92 @@ export default {
         {
           name: "PlantMe",
           description:
-            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores illo, id recusandae molestias illum unde pariatur, enim tempora",
-          label: "Landing Page Dev.",
+            "PlantMe is a plant subscription box website for GTA region in Canada. Research shows that millennials really love plants, especially those who live in cities with limited space and time.",
+          label: "Landing Page",
           img: "plantme",
-          tech: ["React", "HTML/CSS", "Adobe XD"],
+          tech: [
+            "HTML/CSS: Structure and Layout Design",
+            "jQuery: Slider Animation"
+          ],
+          url: "https://github.com/shanruan33/plantme",
           category: "Web_Dev"
         },
         {
           name: "Wine Wiki",
           description:
-            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores illo, id recusandae molestias illum unde pariatur, enim tempora",
-          label: "Full-stack Dev.",
+            "This is a full-stack development of an informational website to search, learn and recommend wines to solve one problem: “how to choose a wine?”. This project includes a landing page, information pages of wine grape and regions, an interactive wine map, a dynamic wine search engine and a recommendation engine.",
+          label: "Full Stack ",
           img: "winewiki",
-          tech: ["React", "HTML/CSS", "Adobe XD"],
-          featured: true,
+          tech: [
+            "PHP/SQL: Dynamic Search Query & Filter,  Recommendation Engine, Database Interaction",
+            "cPanel/phpMyAdmin: User & Wine Database Management",
+            "HTML/CSS: Structure,  Layout & Animation Design",
+            "ZIMJS: Animation",
+            "Leaflet & GeoJSON: Interactive Map",
+            "Adobe XD/Illustrator/Photoshop: User Empathy Map, Interface Design, Wireframe"
+          ],
+          url: "https://github.com/shanruan33/winewiki",
           category: "Web_Dev"
         },
         {
-          name: "BIXI",
+          name: "Shan’s Portfolio",
           description:
-            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores illo, id recusandae molestias illum unde pariatur, enim tempora",
-          label: "Physical Interface Design",
-          img: "bixi",
-          tech: ["React", "HTML/CSS", "Adobe XD"],
-          category: "UI/UX"
+            "This is my SPA portfolio website is created with Vue & Vuex and hosted on AWS. The goal is to enable employers and viewers to easily find out the information they need. All contents are well organized. The work presenting section is designed with a filter of key labels to choose from based on different interests. Animation is also added for a better user experience.",
+          label: "Vue & Vuex",
+          img: "jewelry-m",
+          tech: [
+            "Vue: Router, Instance, Binding, List & Conditional Rendering, Component Registration, Custom Event, etc.",
+            "Vuex: State Management",
+            "HTML/CSS: Structure and Responsive Design",
+            "Bootstrap: Layout & Responsive Design",
+            "jQuery: Navigation Bar Function",
+            "Isotope JS: Portfolio Filter Animation",
+            "AOS JS & CSS: Scroll Animation"
+          ],
+          url: "https://shanruan.io",
+          featured: true,
+          category: "Web_Dev",
+          vue: true
         },
 
         {
           name: "Self-lightening Mirror",
           description:
-            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores illo, id recusandae molestias illum unde pariatur, enim tempora",
-          label: "Arduino Dev.",
+            "Free your hands when doing skincare & makeup from light control. This mirror has a distance sensor and a gesture sensor. It will automatically light up when user is approaching and user can control lightness with very easy hand gestures without touching it, keeping hands clean and free when doing make-up and skincare.",
+          label: "Arduino",
           img: "mirror",
-          tech: ["React", "HTML/CSS", "Adobe XD"],
-          category: "other"
+          tech: [
+            "C++: Programming sensing distance and gesture type to control the color and lightness of LED stripe",
+            "Arduino Board",
+            " Adafruit APDS9960 Gesture Sensor",
+            "Ultrasonic Sensor HC-SR04"
+          ],
+          url: "https://github.com/shanruan33/Mirror",
+          category: "UX/UI"
         },
         {
           name: "Euphoric",
           description:
-            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores illo, id recusandae molestias illum unde pariatur, enim tempora",
+            "Learn about how basic human immune system works through a simple game. This project utilizes ZIM physics library to mimic blood cell flow in the vein and antibody activities from white blood cell.",
           label: "ZIM JS",
           img: "euphoric",
-          tech: ["React", "HTML/CSS", "Adobe XD"],
+          tech: [
+            "ZIM JS: Game Setting (Scoring & Timing)",
+            "BOX 2D & ZIM Physics: Player Control, Element Animation & Hitting Events, etc."
+          ],
+          url: "https://codepen.io/shanruan33/pen/OJVOMdy",
           category: "game"
+        },
+        {
+          name: "Jewelry Mobile",
+          description: "Jewelry E-Commerce Mobile App UX/UI design.  It contains all major functions of shopping apps, including product browsing by type and brand, product filtering by price, color and rating, shopping cart adding and editing, payment processing and card saving, order tracking, user information modifying and product rating, etc.",
+          label: "E-Commerce Mobile",
+          img: "jewelry-m",
+          tech: [
+            "Adobe XD & Illustrator: Interface Design, Icon Design, Interaction Design, Wireframe, Demo"
+          ],
+          url: "https://www.behance.net/gallery/94118227/Jewelry-Mobile-Shopping-App-UXUI-Design",
+          category: "UX/UI"
         }
       ],
       selected: null,
@@ -165,15 +214,15 @@ export default {
           Web_Dev: function(el) {
             return el.category === "Web_Dev";
           },
-          "UI/UX": function(el) {
-            return el.category === "UI/UX";
+          "UX/UI": function(el) {
+            return el.category === "UX/UI" || el.name === "Wine Wiki";
           },
           Game: function(el) {
             return el.category === "game";
-          },
-          Other: function(el) {
-            return el.category === "other";
           }
+          // Other: function(el) {
+          //   return el.category === "other";
+          // }
         }
       }
     };
@@ -185,11 +234,11 @@ export default {
     layout() {
       this.$refs.cpt.layout("masonry");
     },
-    updateDetail (el) {
-        this.$store.dispatch('updateAction', el);
-        window.scrollTo(0,0);
-      }
-  },
+    updateDetail(el) {
+      this.$store.dispatch("updateAction", el);
+      window.scrollTo(0, 0);
+    }
+  }
 };
 </script>
 

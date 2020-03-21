@@ -6,20 +6,22 @@ export const store = new Vuex.Store({
     state: {
         name: "Flow & Wellness Studio",
         description:
-          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores illo, id recusandae molestias illum unde pariatur, enim tempora, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores illo, id recusandae molestias illum unde pariatur, enim tempora",
-        label: "React E-Commerce Dev.",
+        "This is a full-frontend SPA shopping Web App for choosing and purchasing studio classes, created with React. The development includes a landing page with featured products and services, a product page with classes listing and filtering, a product description page, a shopping cart with checkout function (Paypal or cards). Customized API and responsive design are also applied for faster and better user experience.",
+        label: "React E-Commerce",
         img: "flow",
-        tech: ["React", "HTML/CSS", "Adobe XD"],
-        category: "Web_Dev"
+        tech: ["React: State & Lifecycle Management, Router DOM, Context (Provider, Consumer), React Icon, Hook (State, Effect), Event Handler, etc.", "HTML/CSS: Structure and Responsive Design", "Contentful: Content Management & Data Retrieve", "Paypal & Stripe: Payment Management"], 
+        category: "Web_Dev",
+        url: "https://flowandwellnessstudio.netlify.com/",
     },
     mutations: {
         updateDetail(state, el){
             state.name = el.name;
-            state.name = el.name;
+            state.img = el.img;
             state.label = el.label;
             state.category = el.category;
             state.description = el.description;
-            state.techs = el.tech;
+            state.tech = el.tech;
+            state.url = el.url;
         }
     },
     actions: {
@@ -46,6 +48,9 @@ export const store = new Vuex.Store({
         },
         updateCategory(state){
             return state.category;
+        },
+        updateUrl(state){
+            return state.url;
         },
     }
 })
