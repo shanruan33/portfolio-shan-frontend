@@ -101,25 +101,14 @@ export default {
           url: "https://flowandwellnessstudio.netlify.com/",
           featured: true,
           category: "Web_Dev",
-          react: true
+          react: true,
+          btn: "View Demo"
         },
-        {
-          name: "PlantMe",
-          description:
-            "PlantMe is a plant subscription box website for GTA region in Canada. Research shows that millennials really love plants, especially those who live in cities with limited space and time.",
-          label: "Landing Page",
-          img: "plantme",
-          tech: [
-            "HTML/CSS: Structure and Layout Design",
-            "jQuery: Slider Animation"
-          ],
-          url: "https://github.com/shanruan33/plantme",
-          category: "Web_Dev"
-        },
+
         {
           name: "Wine Wiki",
           description:
-            "This is a full-stack development of an informational website to search, learn and recommend wines to solve one problem: “how to choose a wine?”. This project includes a landing page, information pages of wine grape and regions, an interactive wine map, a dynamic wine search engine and a recommendation engine.",
+            "How to choose a wine? This is a full-stack development of an informational website to search, learn and recommend wines to solve this problem. This project includes a landing page, information pages of wine grape and regions, an interactive wine map, a dynamic wine search engine and a recommendation engine.",
           label: "Full Stack ",
           img: "winewiki",
           tech: [
@@ -127,18 +116,19 @@ export default {
             "cPanel/phpMyAdmin: User & Wine Database Management",
             "HTML/CSS: Structure,  Layout & Animation Design",
             "ZIMJS: Animation",
-            "Leaflet & GeoJSON: Interactive Map",
-            "Adobe XD/Illustrator/Photoshop: User Empathy Map, Interface Design, Wireframe"
+            "Leaflet & GeoJSON: Interactive Map with Data Layer",
+            "AdobeXD/Illustrator/Photoshop: User Empathy Map, User Flow, Interface Design, Wireframe, etc"
           ],
           url: "https://github.com/shanruan33/winewiki",
-          category: "Web_Dev"
+          category: "Web_Dev",
+          btn: "More Detail"
         },
         {
           name: "Shan’s Portfolio",
           description:
             "This is my SPA portfolio website is created with Vue & Vuex and hosted on AWS. The goal is to enable employers and viewers to easily find out the information they need. All contents are well organized. The work presenting section is designed with a filter of key labels to choose from based on different interests. Animation is also added for a better user experience.",
           label: "Vue & Vuex",
-          img: "jewelry-m",
+          img: "portfolio",
           tech: [
             "Vue: Router, Instance, Binding, List & Conditional Rendering, Component Registration, Custom Event, etc.",
             "Vuex: State Management",
@@ -151,13 +141,27 @@ export default {
           url: "https://shanruan.io",
           featured: true,
           category: "Web_Dev",
-          vue: true
+          vue: true,
+          btn: "View Demo"
         },
-
+        {
+          name: "PlantMe",
+          description:
+            "PlantMe is a plant subscription box website for GTA region in Canada. Research shows that millennials really love plants, especially those who live in cities with limited space and time.",
+          label: "Landing Page",
+          img: "plantme",
+          tech: [
+            "HTML/CSS: Structure and Layout Design",
+            "jQuery: Slider Animation"
+          ],
+          url: "https://github.com/shanruan33/plantme",
+          category: "Web_Dev",
+          btn: "More Detail"
+        },
         {
           name: "Self-lightening Mirror",
           description:
-            "Free your hands when doing skincare & makeup from light control. This mirror has a distance sensor and a gesture sensor. It will automatically light up when user is approaching and user can control lightness with very easy hand gestures without touching it, keeping hands clean and free when doing make-up and skincare.",
+            "Free your hands when doing skincare & makeup from light control. This mirror has a distance sensor and a gesture sensor. It will automatically light up when user is approaching and user can control lightness with very easy hand gestures without touching it, keeping hands clean and free.",
           label: "Arduino",
           img: "mirror",
           tech: [
@@ -167,12 +171,13 @@ export default {
             "Ultrasonic Sensor HC-SR04"
           ],
           url: "https://github.com/shanruan33/Mirror",
-          category: "UX/UI"
+          category: "UX/UI",
+          btn: "More Detail"
         },
         {
           name: "Euphoric",
           description:
-            "Learn about how basic human immune system works through a simple game. This project utilizes ZIM physics library to mimic blood cell flow in the vein and antibody activities from white blood cell.",
+            "Learn about how basic human immune system works through a simple game. This project utilizes ZIM physics library to imitate blood cell flow in the vein and antibody activities from white blood cell.",
           label: "ZIM JS",
           img: "euphoric",
           tech: [
@@ -180,18 +185,22 @@ export default {
             "BOX 2D & ZIM Physics: Player Control, Element Animation & Hitting Events, etc."
           ],
           url: "https://codepen.io/shanruan33/pen/OJVOMdy",
-          category: "game"
+          category: "game",
+          btn: "View Demo"
         },
         {
           name: "Jewelry Mobile",
-          description: "Jewelry E-Commerce Mobile App UX/UI design.  It contains all major functions of shopping apps, including product browsing by type and brand, product filtering by price, color and rating, shopping cart adding and editing, payment processing and card saving, order tracking, user information modifying and product rating, etc.",
+          description:
+            "Jewelry E-Commerce Mobile App UX/UI design.  It contains all major functions of shopping apps, including product browsing by type and brand, product filtering by price, color and rating, shopping cart adding and editing, payment processing and card saving, order tracking, user information modifying and product rating, etc.",
           label: "E-Commerce Mobile",
           img: "jewelry-m",
           tech: [
             "Adobe XD & Illustrator: Interface Design, Icon Design, Interaction Design, Wireframe, Demo"
           ],
-          url: "https://www.behance.net/gallery/94118227/Jewelry-Mobile-Shopping-App-UXUI-Design",
-          category: "UX/UI"
+          url:
+            "https://www.behance.net/gallery/94118227/Jewelry-Mobile-Shopping-App-UXUI-Design",
+          category: "UX/UI",
+          btn: "More Detail"
         }
       ],
       selected: null,

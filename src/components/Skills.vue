@@ -4,15 +4,15 @@
       <div class="row justify-content-center text-center mb-4">
         <div class="col-5">
           <h3 id="skills" class="h3 heading">My Skills</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit explicabo inventore.</p>
+          <p class="text">Full stack development capability with strong background in design</p>
         </div>
       </div>
-      <div class="row">
+      <div class="row" data-aos="fade-up">
         <div class="col-12 col-sm-6 col-md-6 col-lg-3">
           <font-awesome-icon :icon="['fas', 'laptop-code']" size="2x" class="mb-3" />
           <h4 class="h6 mb-2">Web Front-end Devolopment</h4>
           <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit explicabo inventore.</p> -->
-          <ul class="list-unstyled list-line">
+          <ul class="list-unstyled list-line text">
             <li>
               Language:
               <br />JavaScript, HTML5, CSS, ES6, JSX, JSON, SCSS;
@@ -31,7 +31,7 @@
           <font-awesome-icon :icon="['fas', 'server']" size="2x" class="mb-3" />
           <!-- <span class="las la-server 48px" ></span> -->
           <h4 class="h6 mb-2">Web Back-end Development</h4>
-          <ul class="list-unstyled list-line">
+          <ul class="list-unstyled list-line text">
             <li>
               Language:
               <br />NodeJS, PHP, SQL;
@@ -48,7 +48,7 @@
         <div class="col-12 col-sm-6 col-md-6 col-lg-3">
             <font-awesome-icon :icon="['far', 'user']" size="2x" class="mb-3"/>
           <h4 class="h6 mb-2">UX / UI Design</h4>
-          <ul class="list-unstyled list-line">
+          <ul class="list-unstyled list-line text">
             <li>User research</li>
             <li>Interaction design</li>
             <li>Information architecture</li>
@@ -62,7 +62,7 @@
         <div class="col-12 col-sm-6 col-md-6 col-lg-3">
           <font-awesome-icon :icon="['fas', 'cube']" size="2x" class="mb-3" />
           <h4 class="h6 mb-2">Software</h4>
-          <ul class="list-unstyled list-line">
+          <ul class="list-unstyled list-line text">
             <li>
               Programming:
               <br />VS Code, Github, Terminal, GitBash

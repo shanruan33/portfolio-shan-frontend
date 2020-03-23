@@ -297,7 +297,8 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 /* Custom Navmenu */
 
 .custom-navmenu {
-  background: #0d1e2d;
+  /* background: #0d1e2d; */
+  background: #98b5cc;
 }
 
 .custom-navmenu .custom-menu, .custom-navmenu .custom-menu li {
@@ -317,7 +318,7 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 }
 
 .custom-navmenu .custom-menu li a:hover {
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .custom-navmenu .custom-menu li.active a {
@@ -502,6 +503,11 @@ h1, h2, h3, h4, h5, h6, .font-heading {
     padding-right: 0;
     padding-left: 0;
   }
+}
+
+.text {
+  font-family: 'Lato', sans-serif;
+  /* font-size: 18px; */
 }
 
 /* shan bubbles */

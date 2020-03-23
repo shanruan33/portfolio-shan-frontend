@@ -20,6 +20,7 @@ export default {
 <style>
 @import url("https://fonts.googleapis.com/css?family=Inconsolata&display=swap");
 @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:300&display=swap');
 @import "assets/css/style.css";
 @import "assets/vendor/bootstrap/css/bootstrap.min.css";
 #app {

@@ -5,20 +5,20 @@
         <div class="row align-items-start">
           <div class="col-md-2">
             <ul class="custom-menu">
-              <li class="active">
+              <li class="navbtn">
                 <!-- <a href="index.html">Home</a> -->
                 <router-link to="/">Home</router-link>
               </li>
-              <li>
-                <a href="/#about">About Me</a>
+              <li >
+                <a class="navbtn" href="/#about">About Me</a>
               </li>
-              <li>
+              <li class="navbtn">
                 <a href="/#skills">Skills</a>
               </li>
-              <li>
+              <li class="navbtn">
                 <a href="#works">Work</a>
               </li>
-              <li>
+              <li class="navbtn">
                 <a href="#contact">Contact Me</a>
               </li>
             </ul>
