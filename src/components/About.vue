@@ -2,9 +2,9 @@
   <div class="site-section">
     <div class="container">
       <div class="row justify-content-center text-center mb-4">
-        <div class="col-5">
+        <div class="col-7">
           <h3 id="about" class="h3 heading">About Me</h3>
-          <p class="text">A Frontend Developer &amp; UX Designer in Canada, who loves developing websites with good combination of functionality, usability and visual design.</p>
+          <p class="text">A Frontend Developer &amp; UX Designer in Canada, who loves developing websites with good combination of functionality and usability.</p>
         </div>
       </div>
       <div class="row">

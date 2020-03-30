@@ -2,7 +2,7 @@
   <div class="site-section">
     <div class="container">
       <div class="row justify-content-center text-center mb-4">
-        <div class="col-5">
+        <div class="col-7">
           <h3 id="skills" class="h3 heading">My Skills</h3>
           <p class="text">Full stack development capability with strong background in design</p>
         </div>

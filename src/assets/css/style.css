@@ -297,8 +297,8 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 /* Custom Navmenu */
 
 .custom-navmenu {
-  /* background: #0d1e2d; */
-  background: #98b5cc;
+  background: #0d1e2d;
+  /* background: #98b5cc; */
 }
 
 .custom-navmenu .custom-menu, .custom-navmenu .custom-menu li {

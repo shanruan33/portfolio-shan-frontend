@@ -3,7 +3,7 @@
     <div class="site-section">
       <div class="container">
         <div class="row justify-content-center text-center mb-4">
-          <div class="col-5">
+          <div class="col-7">
             <h3 id="contact" class="h3 heading contact">Contact Me</h3>
             <p>
               Email:
