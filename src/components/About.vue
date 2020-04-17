@@ -4,7 +4,7 @@
       <div class="row justify-content-center text-center mb-4">
         <div class="col-7">
           <h3 id="about" class="h3 heading">About Me</h3>
-          <p class="text">A Frontend Developer &amp; UX Designer in Canada, who loves developing websites with good combination of functionality and usability.</p>
+          <p class="text">A Frontend Developer &amp; UX Designer in Canada, who loves developing websites with a good combination of functionality and usability.</p>
         </div>
       </div>
       <div class="row">
@@ -16,7 +16,7 @@
             I enjoy exploring frontend technologies and solving coding puzzles. Before, I used to study and work on UX in the aspects of product design and product management for more than 5 years. Enabled by those knowledge and experience, now I create better programming solutions for user-friendly interactions in web products.
           </p>
           <p class="text">
-            In addition, I am also good at working and communicating in cross-culture and cross-discipline environment, since I was graduated from UK and employed in 4 countries (United States, Denmark, China and New Zealand). 
+            In addition, I am also good at working and communicating in cross-culture and cross-discipline environments, since I was graduated from top business school in UK and employed in 4 countries (United States, Denmark, China and New Zealand). 
           </p>
           <p class="text">
             You’re welcome to see my résumé for more details.

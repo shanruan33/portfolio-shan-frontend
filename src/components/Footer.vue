@@ -6,7 +6,7 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-6 mb-2">
-            <p class="mb-1">PORTFOLIO OF SHAN RUAN, FEB 2020.</p>
+            <p class="mb-1">PORTFOLIO OF SHAN RUAN, APR 2020.</p>
             <div class="credits">
               <a id="contact_me" href="mailto:shanruan333@gmail.com?subject=hello">CONTACT ME</a>
             </div>

@@ -89,16 +89,16 @@ export default {
         {
           name: "Flow & Wellness Studio",
           description:
-            "This is a full-frontend SPA shopping Web App for choosing and purchasing studio classes, created with React. The development includes a landing page with featured products and services, a product page with classes listing and filtering, a product description page, a shopping cart with checkout function (Paypal or cards). Customized API and responsive design are also applied for faster and better user experience.",
+            "This is a full-frontend SPA shopping Web App for choosing and purchasing studio classes, created with React. The development includes a landing page with featured products and services, a product listing page with filters, a product description page, and a shopping cart with checkout function (Paypal). Customized API and responsive design are also applied for faster and better user experience.",
           label: "React E-Commerce",
           img: "flow",
           tech: [
             "React: State & Lifecycle Management, Router DOM, Context (Provider, Consumer), React Icon, Hook (State, Effect), Event Handler, etc.",
             "HTML/CSS: Structure and Responsive Design",
             "Contentful: Content Management & Data Retrieve",
-            "Paypal & Stripe: Payment Management"
+            "Paypal: Payment Management"
           ],
-          url: "https://flowandwellnessstudio.netlify.com/",
+          url: "https://flowandwellnessstudio.netlify.app/",
           featured: true,
           category: "Web_Dev",
           react: true,
@@ -112,7 +112,7 @@ export default {
           label: "Full Stack ",
           img: "winewiki",
           tech: [
-            "PHP/SQL: Dynamic Search Query & Filter,  Recommendation Engine, Database Interaction",
+            "PHP/SQL: Dynamic Search Query & Filter,  Recommendation Engine (in development), Database Interaction",
             "cPanel/phpMyAdmin: User & Wine Database Management",
             "HTML/CSS: Structure,  Layout & Animation Design",
             "ZIMJS: Animation",
@@ -126,7 +126,7 @@ export default {
         {
           name: "Shan’s Portfolio",
           description:
-            "This is my SPA portfolio website is created with Vue & Vuex and hosted on AWS. The goal is to enable employers and viewers to easily find out the information they need. All contents are well organized. The work presenting section is designed with a filter of key labels to choose from based on different interests. Animation is also added for a better user experience.",
+            "This is my SPA portfolio website which is created with Vue & Vuex and hosted on AWS. The goal is to enable employers and viewers to easily find out the information they need. All content is well organized. The work presenting section is designed with a filter of key labels to choose from based on different interests. Animation is also added for a better user experience.",
           label: "Vue & Vuex",
           img: "portfolio",
           tech: [
@@ -138,7 +138,7 @@ export default {
             "Isotope JS: Portfolio Filter Animation",
             "AOS JS & CSS: Scroll Animation"
           ],
-          url: "https://shanruan.io",
+          url: "http://shanruan.io",
           featured: true,
           category: "Web_Dev",
           vue: true,
