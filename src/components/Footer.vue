@@ -1,19 +1,6 @@
 <template>
   <div>
-    <div class="site-section">
-      <div class="container">
-        <div class="row justify-content-center text-center mb-4">
-          <div class="col-7">
-            <h3 id="contact" class="h3 heading contact">Contact Me</h3>
-            <p>
-              Email:
-              <a href="mailto:shanruan333@gmail.com?subject=hello" id="contact-email">shanruan333@gmail.com</a>
-              <br />Mobile: +1 438 6309212
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
+    <Contact></Contact>
     <div id="holder"></div>
     <footer class="footer" role="contentinfo">
       <div class="container">
@@ -21,8 +8,7 @@
           <div class="col-sm-6 mb-2">
             <p class="mb-1">PORTFOLIO OF SHAN RUAN, FEB 2020.</p>
             <div class="credits">
-              <!-- <a href="about.html">ABOUT ME</a> / -->
-              <a href="mailto:shanruan333@gmail.com?subject=hello">CONTACT ME</a>
+              <a id="contact_me" href="mailto:shanruan333@gmail.com?subject=hello">CONTACT ME</a>
             </div>
           </div>
           <div class="col-md-6 social text-md-right mb-2">
@@ -46,12 +32,11 @@
 </template>
 
 <script>
-
-require('../../node_modules/@danzen/createjs');
-//import "../assets/js/zim/bubble";
+import Contact from "./Contact";
 
 export default {
-  name: 'Footer'
+  name: "Footer",
+  components: { Contact }
 };
 </script>
 

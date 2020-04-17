@@ -1,15 +1,6 @@
-require('@danzen/createjs');
-const makeZIM = require('zimjs');
-const zim = makeZIM(); // pass in true to use zim namespace **
-const [zog] = zim.getGlobals();
-
 const scaling = "holder"; // this will resize to fit inside the screen dimensions
-// const width = 1000;
-// const height = 500;
-// const color = white; // ZIM colors like green, blue, pink, faint, clear, etc.
-// const outerColor = dark; // any HTML colors like "violet", "#333", etc. are fine to use
-const assets = ["https://i.postimg.cc/SK7wfJLH/sletter.png","https://i.postimg.cc/FHct1PYr/hletter.png","https://i.postimg.cc/sDbdjFDH/aletter.png","https://i.postimg.cc/pdtwjDjD/nletter.png"];
 
+const assets = ["https://i.postimg.cc/SK7wfJLH/sletter.png","https://i.postimg.cc/FHct1PYr/hletter.png","https://i.postimg.cc/sDbdjFDH/aletter.png","https://i.postimg.cc/pdtwjDjD/nletter.png"];
 
 const frame = new Frame(scaling, null, null, null, null, assets);
 frame.on("ready", () => { // ES6 Arrow Function - like function(){}

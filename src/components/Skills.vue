@@ -19,7 +19,7 @@
             </li>
             <li>
               Framework:
-              <br />Vue, Vuex, React, Redux, jQuery, ThreeJS, Leaflet, CanvasJS, ZIMJS, Pure, Bootstrap, Foundation;
+              <br />Vue, Vuex, React, Redux, jQuery, ThreeJS, Leaflet, CanvasJS, ZIMJS, Pure, Bootstrap;
             </li>
             <li>
               Tool & technique:
@@ -36,12 +36,9 @@
               Language:
               <br />NodeJS, PHP, SQL;
             </li>
-            <!-- <li>Framework: <br>
-                jQuery, React, Redux, ThreeJS, Angular, Leaflet, CanvasJS, ZIM, Pure, Bootstrap, Foundation;
-            </li>-->
             <li>
               Tool & technique:
-              <br />MongoDB, cPanel, XAMPP, AJAX, Axios, Stripe, Swagger, REST API, Contentful
+              <br />MongoDB, cPanel, XAMPP, Express, Mongoose, AJAX, Axios, Stripe, Swagger, REST API, Contentful
             </li>
           </ul>
         </div>
@@ -65,7 +62,7 @@
           <ul class="list-unstyled list-line text">
             <li>
               Programming:
-              <br />VS Code, Github, Terminal, GitBash
+              <br />VS Code, Github, Terminal, GitBash, Postman
             </li>
             <li>
               Graphic &amp; Interface:

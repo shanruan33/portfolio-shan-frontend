@@ -14,10 +14,7 @@ import { faCodepen, faGithub, faBehance, faLinkedinIn, faLinkedin, faBehanceSqua
 import { FontAwesomeIcon, FontAwesomeLayers, FontAwesomeLayersText } from '@fortawesome/vue-fontawesome'
 import { faLaptopCode, faCube, faServer } from '@fortawesome/free-solid-svg-icons'
 import { faUser } from '@fortawesome/free-regular-svg-icons'
-require('@danzen/createjs');
 
-
-//import router from './router'
 
 library.add(
   faCodepen,

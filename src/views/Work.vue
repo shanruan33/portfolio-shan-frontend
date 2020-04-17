@@ -2,7 +2,7 @@
   <div class="site-section">
     <div class="container">
       <div id="top" class="row align-items-center">
-        <div class="col-md-9" data-aos="fade-up">
+        <div class="col-md-9" data-aos="fade-up" >
           <h2>{{updateName}}</h2>
           <p class="text">{{updateDescription}}</p>
         </div>
@@ -12,7 +12,7 @@
     <div class="site-section pb-0">
       <div class="container">
         <div class="row align-items-stretch">
-          <div class="col-md-8" data-aos="fade-up">
+          <div class="col-md-8" data-aos="fade-up" >
             <a :href="updateUrl" target="_blank">
             <img :src="require(`@/assets/img/${updateImg}Big.png`)" alt="Image" class="img-fluid" />
             </a>

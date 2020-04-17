@@ -259,6 +259,10 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   border: 1px solid transparent;
 }
 
+#message {
+  height: 180px;
+}
+
 .custom-progress {
   height: 7px;
   border-radius: 0;
@@ -297,8 +301,8 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 /* Custom Navmenu */
 
 .custom-navmenu {
-  background: #0d1e2d;
-  /* background: #98b5cc; */
+  /* background: #0d1e2d; */
+  background:black;
 }
 
 .custom-navmenu .custom-menu, .custom-navmenu .custom-menu li {
@@ -444,6 +448,10 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   color: black;
 }
 
+#contact_me {
+  color: black;
+}
+
 .footer {
   padding: 0 0 8rem 0;
 }
@@ -502,6 +510,14 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   .custom-navbar>.container {
     padding-right: 0;
     padding-left: 0;
+  }
+}
+
+@media (max-width:767px) {
+  #hidable_form {
+    width: 60%;
+    min-width: 370px;
+    margin: auto;
   }
 }
 

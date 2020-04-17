@@ -10,7 +10,7 @@
       <div class="row">
         <div class="col-md-7 ml-auto order-2" data-aos="fade-up">
           <p class="text">
-            With a huge passion in coding and a background in design, I am motivated to integrate the art of programming with the art of design into web applications.
+            With a huge passion in coding and a background in design, I am motivated to integrate the logic of programming with the beauty of design into web applications.
           </p>
           <p class="text">
             I enjoy exploring frontend technologies and solving coding puzzles. Before, I used to study and work on UX in the aspects of product design and product management for more than 5 years. Enabled by those knowledge and experience, now I create better programming solutions for user-friendly interactions in web products.

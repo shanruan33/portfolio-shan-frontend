@@ -4,6 +4,7 @@
       <Portfolio></Portfolio>
       <Skills></Skills>
       <About></About> 
+      <!-- <Contact></Contact> -->
     </main>
   </div>
 </template>
@@ -12,13 +13,15 @@
 import Skills from '@/components/Skills';
 import About from '@/components/About';
 import Portfolio from '@/components/Portfolio';
+// import Contact from '@/components/Contact';
 
 export default {
   name: "Home",
   components: {
     Skills,
     About,
-    Portfolio
+    Portfolio,
+    // Contact
   }
 };
 </script>
