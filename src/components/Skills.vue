@@ -7,7 +7,7 @@
           <p class="text">Full stack development capability with strong background in design</p>
         </div>
       </div>
-      <div class="row" data-aos="fade-up">
+      <div class="row" data-aos="fade-up" data-aos-once="true">
         <div class="col-12 col-sm-6 col-md-6 col-lg-3">
           <font-awesome-icon :icon="['fas', 'laptop-code']" size="2x" class="mb-3" />
           <h4 class="h6 mb-2">Web Front-end Devolopment</h4>

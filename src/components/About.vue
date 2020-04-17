@@ -8,7 +8,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-md-7 ml-auto order-2" data-aos="fade-up">
+        <div class="col-md-7 ml-auto order-2" data-aos="fade-up" data-aos-once="true">
           <p class="text">
             With a huge passion in coding and a background in design, I am motivated to integrate the logic of programming with the beauty of design into web applications.
           </p>
@@ -26,7 +26,7 @@
           </p>
         </div>
 
-        <div class="col-md-4 mb-5 mb-md-0" data-aos="fade-up">
+        <div class="col-md-4 mb-5 mb-md-0" data-aos="fade-up" data-aos-once="true">
           <p>
             <img src="../assets/img/RS.jpg" alt="Image" class="img-fluid" />
           </p>
