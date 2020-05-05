@@ -56,6 +56,8 @@
                 <h3 class="name">{{element.name}}</h3>
                 <p class="label">{{element.label}}</p>
                 <span>{{element.category}}</span>
+                <br />
+                <p v-if="element.btn==='Live Demo'" class="readmore white">Live Demo</p>
               </div>
               <img class="img-fluid" :src="require(`@/assets/img/${element.img}.png`)" />
             </router-link>
@@ -93,18 +95,17 @@ export default {
           label: "React E-Commerce",
           img: "flow",
           tech: [
-            "React: State & Lifecycle Management, Router DOM, Context (Provider, Consumer), React Icon, Hook (State, Effect), Event Handler, etc.",
+            "React: State & Lifecycle, Context (Provider, Consumer), React Icon, Hook (State, Effect), Event Handler, Conditional Rendering, Lists & Keys, Forms, Lifting State Up, Composition, Higher-Order Components, Router DOM, Fragments, Render Props, etc.",
             "HTML/CSS: Structure and Responsive Design",
             "Contentful: Content Management & Data Retrieve",
             "Paypal: Payment Management"
           ],
           url: "https://flowandwellnessstudio.netlify.app/",
-          featured: true,
+          ecommerce: true,
           category: "Web_Dev",
           react: true,
-          btn: "View Demo"
+          btn: "Live Demo"
         },
-
         {
           name: "Wine Wiki",
           description:
@@ -123,41 +124,33 @@ export default {
           category: "Web_Dev",
           btn: "More Detail"
         },
+
         {
-          name: "Shan’s Portfolio",
+          name: "S&S Jewelry",
           description:
-            "This is my SPA portfolio website which is created with Vue & Vuex and hosted on AWS. The goal is to enable employers and viewers to easily find out the information they need. All content is well organized. The work presenting section is designed with a filter of key labels to choose from based on different interests. Animation is also added for a better user experience.",
-          label: "Vue & Vuex",
-          img: "portfolio",
+            "S&S Jewelry is a fully functional SPA shopping website with a unique AR try-on feature. Users are able to try the jewelry on mobile through Instagram effects. Together with the overall design of the website, it provides a nice purchasing experience. This website is hosted on Heroku with all function enabled, including branding, product listing & filtering, shopping cart editing and final payment.",
+          label: "MERN Stack E-Commerce",
+          img: "jewelry",
           tech: [
-            "Vue: Router, Instance, Binding, List & Conditional Rendering, Component Registration, Custom Event, etc.",
-            "Vuex: State Management",
-            "HTML/CSS: Structure and Responsive Design",
-            "Bootstrap: Layout & Responsive Design",
-            "jQuery: Navigation Bar Function",
-            "Isotope JS: Portfolio Filter Animation",
-            "AOS JS & CSS: Scroll Animation"
-          ],
-          url: "http://shanruan.io",
-          featured: true,
-          category: "Web_Dev",
-          vue: true,
-          btn: "View Demo"
-        },
-        {
-          name: "PlantMe",
-          description:
-            "PlantMe is a plant subscription box website for GTA region in Canada. Research shows that millennials really love plants, especially those who live in cities with limited space and time.",
-          label: "Landing Page",
-          img: "plantme",
-          tech: [
+            "React: State & Lifecycle, Context (Provider, Consumer), React Icon, Hook (State, Effect), Event Handler, Conditional Rendering, Lists & Keys, Forms, Lifting State Up, Composition, Higher-Order Components, Router DOM, Fragments, etc.",
             "HTML/CSS: Structure and Layout Design",
-            "jQuery: Slider Animation"
+            "Bootstrap: Layout & Responsive Design",
+            "jQuery: Navigation Bar Function, Product Images Display Animation",
+            "NodeJS/Express: Routes Management, Server Requests Listening & Handling, etc.",
+            "MongoDB/Mongoose: Database Creation & Connection",
+            "Bcrypt: User Passwords Hashing",
+            "Contentful: Content Management & Data Retrieve",
+            "Stripe: Payment Management",
+            "SparkAR: AR Try-on Module",
+            "Heroku/AWS: Website & Domain Hosting"
           ],
-          url: "https://github.com/shanruan33/plantme",
+          url: "https://ssjewelry.shanruan.io/",
+          ecommerce: true,
           category: "Web_Dev",
-          btn: "More Detail"
+          react: true,
+          btn: "Live Demo"
         },
+
         {
           name: "Self-lightening Mirror",
           description:
@@ -186,7 +179,41 @@ export default {
           ],
           url: "https://codepen.io/shanruan33/pen/OJVOMdy",
           category: "game",
-          btn: "View Demo"
+          btn: "Live Demo"
+        },
+        {
+          name: "Shan’s Portfolio",
+          description:
+            "This is my SPA portfolio website which is created with Vue & Vuex and hosted on AWS. The goal is to enable employers and viewers to easily find out the information they need. All content is well organized. The work presenting section is designed with a filter of key labels to choose from based on different interests. Animation is also added for a better user experience.",
+          label: "Vue & Vuex",
+          img: "portfolio",
+          tech: [
+            "Vue: Router, Instance, Binding, List & Conditional Rendering, Component Registration, Custom Event, etc.",
+            "Vuex: State Management",
+            "HTML/CSS: Structure and Responsive Design",
+            "Bootstrap: Layout & Responsive Design",
+            "jQuery: Navigation Bar Function",
+            "Isotope JS: Portfolio Filter Animation",
+            "AOS JS & CSS: Scroll Animation"
+          ],
+          url: "http://shanruan.io",
+          category: "Web_Dev",
+          vue: true,
+          btn: "Live Demo"
+        },
+        {
+          name: "PlantMe",
+          description:
+            "PlantMe is a plant subscription box website for GTA region in Canada. Research shows that millennials really love plants, especially those who live in cities with limited space and time.",
+          label: "Landing Page",
+          img: "plantme",
+          tech: [
+            "HTML/CSS: Structure and Layout Design",
+            "jQuery: Slider Animation"
+          ],
+          url: "https://github.com/shanruan33/plantme",
+          category: "Web_Dev",
+          btn: "More Detail"
         },
         {
           name: "Jewelry Mobile",
@@ -199,6 +226,7 @@ export default {
           ],
           url:
             "https://www.behance.net/gallery/94118227/Jewelry-Mobile-Shopping-App-UXUI-Design",
+          ecommerce: true,
           category: "UX/UI",
           btn: "More Detail"
         }
@@ -211,9 +239,7 @@ export default {
           All: function() {
             return true;
           },
-          Featured: function(el) {
-            return !!el.featured;
-          },
+
           "React/Vue": function(el) {
             return !!el.react || !!el.vue;
           },
@@ -224,7 +250,10 @@ export default {
             return el.category === "Web_Dev";
           },
           "UX/UI": function(el) {
-            return el.category === "UX/UI" || el.name === "Wine Wiki";
+            return el.category === "UX/UI" || el.name === "Wine Wiki" || el.name === "S&S Jewelry";
+          },
+          "E-commerce": function(el) {
+            return !!el.ecommerce;
           },
           Game: function(el) {
             return el.category === "game";

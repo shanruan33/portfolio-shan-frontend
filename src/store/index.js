@@ -6,13 +6,20 @@ export const store = new Vuex.Store({
     state: {
         name: "Flow & Wellness Studio",
         description:
-            "This is a full-frontend SPA shopping Web App for choosing and purchasing studio classes, created with React. The development includes a landing page with featured products and services, a product listing page with filters, a product description page, and a shopping cart with checkout function (Paypal). Customized API and responsive design are also applied for faster and better user experience.",
+          "This is a full-frontend SPA shopping Web App for choosing and purchasing studio classes, created with React. The development includes a landing page with featured products and services, a product listing page with filters, a product description page, and a shopping cart with checkout function (Paypal). Customized API and responsive design are also applied for faster and better user experience.",
         label: "React E-Commerce",
         img: "flow",
-        tech: ["React: State & Lifecycle Management, Router DOM, Context (Provider, Consumer), React Icon, Hook (State, Effect), Event Handler, etc.", "HTML/CSS: Structure and Responsive Design", "Contentful: Content Management & Data Retrieve", "Paypal & Stripe: Payment Management"],
+        tech: [
+          "React: State & Lifecycle, Context (Provider, Consumer), React Icon, Hook (State, Effect), Event Handler, Conditional Rendering, Lists & Keys, Forms, Lifting State Up, Composition, Higher-Order Components, Router DOM, Fragments, Render Props, etc.",
+          "HTML/CSS: Structure and Responsive Design",
+          "Contentful: Content Management & Data Retrieve",
+          "Paypal: Payment Management"
+        ],
+        url: "https://flowandwellnessstudio.netlify.app/",
+        ecommerce: true,
         category: "Web_Dev",
-        url: "https://flowandwellnessstudio.netlify.com/",
-        btn: "View Demo"
+        react: true,
+        btn: "Live Demo"
     },
     mutations: {
         updateDetail(state, el) {

@@ -22,13 +22,13 @@
             You’re welcome to see my résumé for more details.
           </p>
           <p>
-            <a href="https://drive.google.com/file/d/1fbi8ZWiDWJUrrsgTA_h0G4Bu6pQ2AwVC/view?usp=sharing" target="_blank" class="readmore">Download my résumé</a>
+            <a href="https://drive.google.com/file/d/12mM0n9XWckeqWI2f42H4jVib65deP-J_/view?usp=sharing" target="_blank" class="readmore">Download my résumé</a>
           </p>
         </div>
 
         <div class="col-md-4 mb-5 mb-md-0" data-aos="fade-up" data-aos-once="true">
           <p>
-            <img src="../assets/img/RS.jpg" alt="Image" class="img-fluid" />
+            <img src="../assets/img/portfolioPhoto.png" alt="Image" class="img-fluid" />
           </p>
         </div>
       </div>

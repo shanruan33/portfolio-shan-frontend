@@ -182,6 +182,12 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   font-weight: 700;
 }
 
+.white {
+  margin-top: 12px;
+  border-color: white;
+  color: white;
+}
+
 .readmore:active, .readmore:focus, .readmore:hover {
   outline: none;
 }
@@ -190,6 +196,9 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   color: #fff;
   text-decoration: none;
   background: #000;
+}
+.white:hover {
+  background:none;
 }
 
 .testimonial-carousel .owl-dots {
