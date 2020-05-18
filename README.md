@@ -1,24 +1,17 @@
-# portfolio-shanruan
+# Shan's Portfolio
 
-## Project setup
+## Live Demo
 ```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
+http://shanruan.io
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+![](src/assets/img/portfolioBig.png)
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Technical Sheet
+- Vue: Router, Instance, Binding, List & Conditional Rendering, Component Registration, Custom Event, etc.
+- Vuex: State Management
+- HTML/CSS: Structure and Responsive Design
+- Bootstrap: Layout & Responsive Design
+- jQuery: Navigation Bar Function
+- Isotope JS: Portfolio Filter Animation
+- AOS JS & CSS: Scroll Animation
