@@ -5,7 +5,7 @@
 http://shanruan.io
 ```
 
-![](src/assets/img/portfolioBig.png)
+![](src/assets/img/portfolio-landscape.jpg)
 
 ## Technical Sheet
 - Vue: Router, Instance, Binding, List & Conditional Rendering, Component Registration, Custom Event, etc.
