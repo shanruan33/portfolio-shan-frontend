@@ -13,7 +13,7 @@
             With a huge passion in coding and a background in design, I am motivated to integrate the logic of programming with the beauty of design into web applications.
           </p>
           <p class="text">
-            I enjoy exploring frontend technologies and solving coding puzzles. Before, I used to study and work on UX in the aspects of product design and product management for more than 5 years. Enabled by those knowledge and experience, now I create better programming solutions for user-friendly interactions in web products.
+            I enjoy exploring web technologies and solving coding puzzles. Before, I used to study and work on UX in the aspects of product design and product management for more than 5 years. Enabled by those knowledge and experience, now I create better programming solutions for user-friendly interactions in web products.
           </p>
           <p class="text">
             In addition, I am also good at working and communicating in cross-culture and cross-discipline environments, since I was graduated from top business school in UK and employed in 4 countries (United States, Denmark, China and New Zealand). 

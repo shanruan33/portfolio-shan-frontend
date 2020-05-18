@@ -4,7 +4,7 @@
       <div v-if="this.$router.currentRoute.path !=='/work'" class="row mb-5 align-items-center">
         <div class="col-md-12 col-lg-6 mb-4 mb-lg-0" data-aos="fade-up">
           <h2 id="works">Hey, I'm Shan Ruan</h2>
-          <p class="mb-0">Frontend Developer &amp; UX Designer</p>
+          <p class="mb-0">Full-stack Developer &amp; Product Designer</p>
         </div>
         <div class="col-md-12 col-lg-6 text-left text-lg-right">
           <div class="filters">
