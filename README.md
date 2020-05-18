@@ -1,9 +1,8 @@
 # Shan's Portfolio
 
 ## Live Demo
-```
 http://shanruan.io
-```
+
 
 ![](src/assets/img/portfolio-landscape.jpg)
 
