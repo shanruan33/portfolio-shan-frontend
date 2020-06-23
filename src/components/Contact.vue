@@ -108,7 +108,7 @@ export default {
       if (this.name != "" && this.email != "" && this.content != "") {
         this.blank = false;
         this.axios
-          .post("http://messages.shanruan.io/api/messages", {
+          .post("https://messages.shanruan.io/api/messages", {
             name: this.name,
             email: this.email,
             content: this.content
