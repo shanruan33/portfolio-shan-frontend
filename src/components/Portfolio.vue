@@ -196,7 +196,7 @@ export default {
             "Isotope JS: Portfolio Filter Animation",
             "AOS JS & CSS: Scroll Animation"
           ],
-          url: "http://shanruan.io",
+          url: "https://shanruan.io",
           category: "Web_Dev",
           vue: true,
           btn: "Live Demo"
